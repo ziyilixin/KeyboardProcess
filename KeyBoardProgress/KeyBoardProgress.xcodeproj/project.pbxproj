@@ -15,6 +15,8 @@
 		54E27FA61F272BB70005D245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E27FA41F272BB70005D245 /* LaunchScreen.storyboard */; };
 		54E27FB11F272BB70005D245 /* KeyBoardProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E27FB01F272BB70005D245 /* KeyBoardProgressTests.m */; };
 		54E27FBC1F272BB70005D245 /* KeyBoardProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E27FBB1F272BB70005D245 /* KeyBoardProgressUITests.m */; };
+		54E27FCB1F272E5C0005D245 /* CFKeyBoardTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E27FCA1F272E5C0005D245 /* CFKeyBoardTool.m */; };
+		54E27FCD1F272E760005D245 /* CFKeyBoardTool.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54E27FCC1F272E760005D245 /* CFKeyBoardTool.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		54E27FB71F272BB70005D245 /* KeyBoardProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyBoardProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54E27FBB1F272BB70005D245 /* KeyBoardProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyBoardProgressUITests.m; sourceTree = "<group>"; };
 		54E27FBD1F272BB70005D245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E27FC91F272E5C0005D245 /* CFKeyBoardTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFKeyBoardTool.h; sourceTree = "<group>"; };
+		54E27FCA1F272E5C0005D245 /* CFKeyBoardTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFKeyBoardTool.m; sourceTree = "<group>"; };
+		54E27FCC1F272E760005D245 /* CFKeyBoardTool.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFKeyBoardTool.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 				54E27FA21F272BB70005D245 /* Assets.xcassets */,
 				54E27FA41F272BB70005D245 /* LaunchScreen.storyboard */,
 				54E27FA71F272BB70005D245 /* Info.plist */,
+				54E27FC91F272E5C0005D245 /* CFKeyBoardTool.h */,
+				54E27FCA1F272E5C0005D245 /* CFKeyBoardTool.m */,
+				54E27FCC1F272E760005D245 /* CFKeyBoardTool.xib */,
 				54E27F961F272BB70005D245 /* Supporting Files */,
 			);
 			path = KeyBoardProgress;
@@ -252,6 +260,7 @@
 				54E27FA61F272BB70005D245 /* LaunchScreen.storyboard in Resources */,
 				54E27FA31F272BB70005D245 /* Assets.xcassets in Resources */,
 				54E27FA11F272BB70005D245 /* Main.storyboard in Resources */,
+				54E27FCD1F272E760005D245 /* CFKeyBoardTool.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +288,7 @@
 				54E27F9E1F272BB70005D245 /* ViewController.m in Sources */,
 				54E27F9B1F272BB70005D245 /* AppDelegate.m in Sources */,
 				54E27F981F272BB70005D245 /* main.m in Sources */,
+				54E27FCB1F272E5C0005D245 /* CFKeyBoardTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
