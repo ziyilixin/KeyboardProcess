@@ -2,7 +2,7 @@
 键盘处理
 
 屏幕截图
-![image]()
+![image](https://github.com/ziyilixin/KeyboardProcess/blob/master/KeyBoardProgress/KeyBoardProgress/1.gif?raw=true)
 
 ## 代码实现
 ```objc
