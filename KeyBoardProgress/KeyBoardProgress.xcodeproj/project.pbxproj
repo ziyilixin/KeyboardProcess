@@ -17,6 +17,7 @@
 		54E27FBC1F272BB70005D245 /* KeyBoardProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E27FBB1F272BB70005D245 /* KeyBoardProgressUITests.m */; };
 		54E27FCB1F272E5C0005D245 /* CFKeyBoardTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E27FCA1F272E5C0005D245 /* CFKeyBoardTool.m */; };
 		54E27FCD1F272E760005D245 /* CFKeyBoardTool.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54E27FCC1F272E760005D245 /* CFKeyBoardTool.xib */; };
+		BBC03506219A9ED900BD332C /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = BBC03505219A9ED900BD332C /* 1.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		54E27FC91F272E5C0005D245 /* CFKeyBoardTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFKeyBoardTool.h; sourceTree = "<group>"; };
 		54E27FCA1F272E5C0005D245 /* CFKeyBoardTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFKeyBoardTool.m; sourceTree = "<group>"; };
 		54E27FCC1F272E760005D245 /* CFKeyBoardTool.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFKeyBoardTool.xib; sourceTree = "<group>"; };
+		BBC03505219A9ED900BD332C /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		54E27F951F272BB70005D245 /* KeyBoardProgress */ = {
 			isa = PBXGroup;
 			children = (
+				BBC03504219A9EB600BD332C /* Picture */,
 				54E27F991F272BB70005D245 /* AppDelegate.h */,
 				54E27F9A1F272BB70005D245 /* AppDelegate.m */,
 				54E27F9C1F272BB70005D245 /* ViewController.h */,
@@ -146,6 +149,14 @@
 				54E27FBD1F272BB70005D245 /* Info.plist */,
 			);
 			path = KeyBoardProgressUITests;
+			sourceTree = "<group>";
+		};
+		BBC03504219A9EB600BD332C /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				BBC03505219A9ED900BD332C /* 1.gif */,
+			);
+			name = Picture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 				54E27FA61F272BB70005D245 /* LaunchScreen.storyboard in Resources */,
 				54E27FA31F272BB70005D245 /* Assets.xcassets in Resources */,
 				54E27FA11F272BB70005D245 /* Main.storyboard in Resources */,
+				BBC03506219A9ED900BD332C /* 1.gif in Resources */,
 				54E27FCD1F272E760005D245 /* CFKeyBoardTool.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +538,7 @@
 				54E27FC21F272BB70005D245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54E27FC31F272BB70005D245 /* Build configuration list for PBXNativeTarget "KeyBoardProgressTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +547,7 @@
 				54E27FC51F272BB70005D245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54E27FC61F272BB70005D245 /* Build configuration list for PBXNativeTarget "KeyBoardProgressUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +556,7 @@
 				54E27FC81F272BB70005D245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
